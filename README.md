@@ -34,16 +34,16 @@ python convert_images_to_pdf.py
 ```
 image-to-pdf/
 ├── image/                    # 输入图片目录
-│   ├── 中药综合001/         # 子目录1
+│   ├── 示例目录01/         # 子目录1
 │   │   ├── 001.PNG
 │   │   ├── 002.PNG
 │   │   └── ...
-│   ├── 中药综合02/          # 子目录2
+│   ├── 示例目录02/          # 子目录2
 │   │   └── ...
 │   └── ...
 ├── output/                   # 输出PDF目录（自动创建）
-│   ├── 中药综合001.pdf
-│   ├── 中药综合02.pdf
+│   ├── 示例文件01.pdf
+│   ├── 示例文件02.pdf
 │   └── ...
 ├── convert_images_to_pdf.py  # 主程序
 ├── requirements.txt          # Python依赖
@@ -91,4 +91,5 @@ A: 修改 `DPI` 常量（当前150）和保存时的 `quality` 参数（当前95
 ## 许可证
 
 MIT License
+
 
